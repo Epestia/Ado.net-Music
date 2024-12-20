@@ -1,0 +1,6 @@
+C:\Users\d.menegon\Desktop\.netDevObs\07-ADO.net\01-DB_Music\DB_Music\bin\Debug\DB_Music.dacpac
+C:\Users\d.menegon\Desktop\.netDevObs\07-ADO.net\01-DB_Music\DB_Music\bin\Debug\DB_Music.dll
+C:\Users\d.menegon\Desktop\.netDevObs\07-ADO.net\01-DB_Music\DB_Music\bin\Debug\DB_Music.pdb
+C:\Users\d.menegon\Desktop\.netDevObs\07-ADO.net\01-DB_Music\DB_Music\obj\Debug\DB_Music.sqlproj.AssemblyReference.cache
+C:\Users\d.menegon\Desktop\.netDevObs\07-ADO.net\01-DB_Music\DB_Music\obj\Debug\DB_Music.dll
+C:\Users\d.menegon\Desktop\.netDevObs\07-ADO.net\01-DB_Music\DB_Music\obj\Debug\DB_Music.pdb

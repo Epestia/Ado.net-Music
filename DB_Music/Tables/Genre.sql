@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Genre]
+(
+	[Id] INT IDENTITY NOT NULL PRIMARY KEY, 
+	[Name] NVARCHAR(100)NOT NULL DEFAULT('Unknown'),
+
+	CONSTRAINT UK_Name UNIQUE([Name])
+)

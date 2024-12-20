@@ -1,0 +1,30 @@
+﻿** Met en surbrillance
+     Tables qui seront recréées avec les données migrées
+       Aucun
+     Index ordonnés en clusters à supprimer
+       Aucun
+     Index ordonnés en clusters à créer.
+       Aucun
+     Problèmes de données possibles
+       Aucun
+
+** Actions de l'utilisateur
+     Créer
+       [dbo].[Artist] (Table)
+       [dbo].[ArtistMusic] (Table)
+       [dbo].[Genre] (Table)
+       [dbo].[Music] (Table)
+       [dbo].[MusicGenre] (Table)
+       [dbo].[User_] (Table)
+       Contrainte par défaut: contrainte sans nom sur [dbo].[Genre] (Contrainte par défaut)
+       [dbo].[FK_ARTIST_MUSIC_ID] (Clé étrangère)
+       [dbo].[FK_MUSIC_ARTIST_ID] (Clé étrangère)
+       [dbo].[FK_GENRE_MUSIC_ID] (Clé étrangère)
+       [dbo].[FK_MUSIC_GENRE_ID] (Clé étrangère)
+       [dbo].[CK_RetirementDate] (Contrainte de validation)
+       [dbo].[CK_EMAIL] (Contrainte de validation)
+       [dbo].[GetPepper] (Fonction)
+       [dbo].[CreateUser] (Procédure)
+       [dbo].[Login] (Procédure)
+
+** Actions de support
