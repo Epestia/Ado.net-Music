@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JawsNi3kGv5eCNi+qu2LricgWfkEpHe/G99UT4JPos2O4uoAqyv8iCu1zKCafFW12+VeC1jnMnRZcJMdDSdKSA==",
+  "dgSpecHash": "nnDOx/875M5vZDebM2iwTCaEPEYFimG1TztdOayYPZwX9f3QE6jvBslxA/qF0Yj9LPPo0HoCiMolV04LZb0Aiw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\d.menegon\\Desktop\\.netDevObs\\07-ADO.net\\DB_Music\\Music_Consume\\Music_Consume.csproj",
+  "projectFilePath": "C:\\Users\\d.menegon\\Desktop\\.netDevObs\\07-ADO.net\\01-DB_Music\\Music_Consume\\Music_Consume.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\d.menegon\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\d.menegon\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

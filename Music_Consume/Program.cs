@@ -9,7 +9,7 @@ Console.WriteLine(connection.State);
 connection.Close();
 Console.WriteLine(connection.State);
 
-
+// select la date
 using (SqlConnection connection = new SqlConnection(connectionString))
 {
     using (SqlCommand command = connection.CreateCommand())
@@ -21,7 +21,8 @@ using (SqlConnection connection = new SqlConnection(connectionString))
         Console.WriteLine(date);
     }
 }
-
+ 
+//Insert artist
 using (SqlConnection connection = new SqlConnection(connectionString))
 {
     using (SqlCommand command = connection.CreateCommand())
@@ -34,6 +35,7 @@ using (SqlConnection connection = new SqlConnection(connectionString))
     }
 }
 
+//Delete artist
 using (SqlConnection connection = new SqlConnection(connectionString))
 {
     using (SqlCommand command = connection.CreateCommand())
@@ -53,6 +55,7 @@ using (SqlConnection connection = new SqlConnection(connectionString))
     }
 }
 
+//select aya
 using (SqlConnection connection = new SqlConnection(connectionString))
 {
     using (SqlCommand command = connection.CreateCommand())
@@ -78,6 +81,7 @@ using (SqlConnection connection = new SqlConnection(connectionString))
     }
 }
 
+//insert music
 using (SqlConnection connection = new SqlConnection(connectionString))
 {
     using (SqlCommand command = connection.CreateCommand())
@@ -89,6 +93,7 @@ using (SqlConnection connection = new SqlConnection(connectionString))
     }
 }
 
+//insert Artistmusic
 using (SqlConnection connection = new SqlConnection(connectionString))
 {
     using (SqlCommand command = connection.CreateCommand())
@@ -100,6 +105,7 @@ using (SqlConnection connection = new SqlConnection(connectionString))
     }
 }
 
+//Jointure
 using (SqlConnection connection = new SqlConnection(connectionString))
 {
     using (SqlCommand command = connection.CreateCommand())
@@ -111,7 +117,14 @@ using (SqlConnection connection = new SqlConnection(connectionString))
         "WHERE A.Id = 6 ";
 
         connection.Open();
-        string ArtiMu = command.ExecuteScalar().ToString();
-        Console.WriteLine(ArtiMu);
+
+        using (SqlDataReader reader = command.ExecuteReader())
+        {
+            while (reader.Read())
+            {
+                Console.WriteLine($"{reader["Name"].ToString()} - {reader["Title"].ToString()}");
+            }
+        }
+
     }
 }
